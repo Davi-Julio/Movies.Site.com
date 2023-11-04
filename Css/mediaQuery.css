@@ -1,0 +1,393 @@
+/* Large Tablets/Laptops */
+@media (min-width:992px) and (max-width:1071px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .conteudo-section {
+        margin: 20px 0px;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+
+    .conteudo-section p {
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+}
+
+/*  SMALL TABLETS */
+@media (min-width:768px) and (max-width:991px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1% 0;
+    }
+
+    .logo h1 {
+        font-size: 30px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .nav {
+        margin: 20px 0px;
+    }
+
+    .nav ol li {
+        margin: 0px 15px;
+        list-style-type: none;
+    }
+
+    .nav ol li a {
+        padding: 8px 13px;
+        font-size: 14px;
+
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .conteudo-section {
+        margin: 20px 0px;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+
+    .conteudo-section p {
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+
+    /* LIST MOVIES */
+
+    .titulo-list-movies h1 {
+        font-size: 25px;
+    }
+
+    .titulo-list-movies p {
+        max-width: 600px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    /* FOOTER */
+    .footer {
+        display: none;
+    }
+}
+
+/* EXTRA SMALL DEVICES */
+
+@media(min-width:481px) and (max-width:767px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1% 0;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .nav {
+        margin: 20px 0px;
+    }
+
+    .nav ol li {
+        margin: 0px 8px;
+        list-style-type: none;
+    }
+
+    .nav ol li a {
+        padding: 6px 10px;
+        font-size: 14px;
+
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .conteudo-section {
+        margin: 20px 0px;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+
+    .conteudo-section p {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+    .movies-heros {
+        padding: 3% 0;
+        border-top: 1px solid black;
+        margin: 0px 30px;
+    }
+
+    .container-movies-heros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+
+    .container-movies-heros img {
+        width: 20vw;
+    }
+
+    /* LIST MOVIES */
+
+    .titulo-list-movies h1 {
+        font-size: 17px;
+        font-weight: 800;
+    }
+
+    .titulo-list-movies p {
+        max-width: 400px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .box-container-list-movies h1 {
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    .box-container-list-movies p {
+        max-width: 550px;
+        font-weight: 400;
+        font-size: 14px;
+        max-width: 300px;
+    }
+
+
+    .box-container-list-movies a {
+        border: none;
+        padding: 5px 20px;
+        background-color: brown;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 10px 10px 20px black;
+        font-size: 12px;
+    }
+
+    /* CONTACT & ABOUT */
+
+    .card-body {
+        font-size: 18px;
+    }
+
+    /* MORE MOVIES */
+
+    .container-more-Movies {
+        padding: 2% 3%;
+    }
+
+    .box-container-more-movies h1 {
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    .box-container-more-movies p {
+        font-weight: 400;
+        font-size: 17px;
+    }
+
+    .box-container-more-movies a {
+        font-weight: 800;
+        font-size: 45px;
+        border-right: 0px;
+        padding: 0px 15px;
+    }
+
+    /* FOOTER */
+    .footer {
+        display: none;
+    }
+
+}
+
+/* MOBILE */
+
+@media (max-width:480px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1% 0;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .nav {
+        margin: 10px 0px;
+    }
+
+    .nav ol li {
+        margin: 0px 5px;
+        list-style-type: none;
+    }
+
+    .nav ol li a {
+        padding: 3px 5px;
+        font-size: 8px;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .conteudo-section {
+        margin: 20px 0px;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+
+    .conteudo-section p {
+        font-size: 9px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+    .wallpaper {
+        padding: 1% 2%;
+        background-color: #000;
+        margin: 5px 0px;
+    }
+
+    .movies-heros {
+        padding: 2% 0;
+        border-top: 0px;
+        margin: 0px 0px;
+    }
+
+    .container-movies-heros {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        text-align: center;
+    }
+
+    .container-movies-heros img {
+        width: 15vw;
+    }
+
+    .container-movies-heros p {
+        font-size: 7px;
+    }
+
+    /* LIST MOVIES */
+
+    .titulo-list-movies h1 {
+        font-size: 10px;
+        font-weight: 800;
+    }
+
+    .titulo-list-movies p {
+        max-width: 500px;
+        font-size: 8px;
+        font-weight: 400;
+    }
+
+    .box-container-list-movies h1 {
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 12px;
+    }
+
+    .box-container-list-movies p {
+        max-width: 550px;
+        font-weight: 400;
+        font-size: 7px;
+        max-width: 300px;
+    }
+
+
+    .box-container-list-movies a {
+        border: none;
+        padding: 3px 15px;
+        background-color: brown;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 10px 10px 20px black;
+        font-size: 6px;
+    }
+
+    /* CONTACT & ABOUT */
+
+    .card-body {
+        font-size: 10px;
+    }
+
+    .card-body a {
+        font-size: 8px;
+    }
+
+    .card {
+        width: 80vw;
+        margin: 110px 10px;
+    }
+
+    /* MORE MOVIES */
+
+    .container-more-Movies {
+        padding: 5% 3%;
+    }
+
+    .box-container-more-movies h1 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .box-container-more-movies p {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .box-container-more-movies a {
+        font-weight: 800;
+        font-size: 30px;
+        border-right: 0px;
+        padding: 0px 15px;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        display: none;
+    }
+
+}
